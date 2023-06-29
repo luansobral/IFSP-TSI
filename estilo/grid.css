@@ -43,7 +43,6 @@ h2 {
     margin: 30px auto;
     background: var();
     display: flex;
-    font-weight: ;
     cursor: pointer;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.37);
 }
