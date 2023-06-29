@@ -28,10 +28,7 @@ header img {
 header a {
     margin-left: auto;
     text-decoration: none;
-}
-
-a:hover{
-    cursor:crosshair;
+    color: var(--background);
 }
 
 header button {
@@ -53,6 +50,10 @@ header button {
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.37);
 }
 
+header button:hover{
+    cursor: pointer;
+}
+
 /****************************************************************HOME**************************************************************/
 .home{
     background-image: url(../img/background.png);
@@ -71,14 +72,12 @@ header button {
 
 .titulo-curso h1{
     margin-top: 21%;
-    background-color: var(--background);
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
     font-size: 60px;
 }
 
 .titulo-curso h2{
-    background-color: var(--background);
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
     font-size: 40px;
@@ -86,4 +85,11 @@ header button {
 
 .titulo-curso h1, .titulo-curso h2{
     text-align: center;
+    background-color: var(--background);
 }
+
+.titulo-curso h1:hover, .titulo-curso h2:hover{
+    cursor: default;
+}
+
+/***************************************************************NAVEGAÇÃO****************************************************************/
