@@ -1,11 +1,13 @@
 /* POPPINS */ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* POPPINS MEDIUM */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
 /* INTER REGULAR 400 */ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-/* INTER MEDIUM */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');;
+/* INTER MEDIUM */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 :root{
     --background: #E8E8E8;
     --btn-primario: #0C4235;
     --txt: #161616;
+    --accent: #188169;
 }
 
 * {
@@ -46,6 +48,13 @@ h2 {
     display: flex;
     cursor: pointer;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.37);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: var(--accent);
+    transition: 0.25s;
 }
 
 .grid-item a {
@@ -55,7 +64,28 @@ h2 {
     margin: auto;
     text-align: center;
 }
-/***************************************************FOOTER***********************************************************************/
+/******************************************************SOBRE O CURSO***********************************************************/
+.sobre{
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 30px;
+}
+
+.sobre h2{
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: var(--txt);
+}
+
+.sobre p, .sobre b{
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--txt);
+    text-align: left;
+}
+/*******************************************************FOOTER*****************************************************************/
 .rodape {
     display: flex;
     flex-direction: row;
