@@ -79,8 +79,43 @@ button:hover{
     width: 85%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.section img {
+    margin-left: 5px;
+}
+hr {
+    width: 500px;
+    height: 1px;
+    background-color: var(--txt);
+}
+.doc{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+    justify-content: space-between;
+}
+.doc a {
+    text-decoration: none;
+}
+.hr{
+    width: 85%;
+    height: 2px;
+    background-color: var(--txt);
+    margin: auto;
+}
+.doc p{
+    color: var(--text, #161616);
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-left: 10px;
+    letter-spacing: 1px;
 }
 /***************************************************FOOTER***********************************************************************/
 .rodape {
