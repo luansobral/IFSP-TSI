@@ -1,9 +1,13 @@
-/* POPPINS */ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-/* POPPINS MEDIUM */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
-/* INTER REGULAR 400 */ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-/* INTER MEDIUM */ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+/* POPPINS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* POPPINS MEDIUM */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&display=swap');
+/* INTER REGULAR 400 */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* INTER MEDIUM */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-:root{
+:root {
     --background: #E8E8E8;
     --btn-primario: #0C4235;
     --txt: #161616;
@@ -28,6 +32,7 @@ h2 {
     margin-top: 40px;
     margin: 30px;
 }
+
 /***************************************************NAVEGAÇÃO (GRID)***********************************************************************/
 .grid {
     display: grid;
@@ -38,8 +43,9 @@ h2 {
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
+
 .grid-item {
     width: 200px;
     height: 120px;
@@ -51,10 +57,12 @@ h2 {
     cursor: pointer;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.37);
 }
-button:hover{
+
+button:hover {
     background-color: var(--accent);
     transition: 0.25s;
 }
+
 .grid-item a {
     text-decoration: none;
     font-size: 20px;
@@ -62,8 +70,9 @@ button:hover{
     margin: auto;
     text-align: center;
 }
+
 /***************************************************CONTEÚDO***********************************************************************/
-.info{
+.info {
     width: 85%;
     margin: auto;
     margin-bottom: 30px;
@@ -72,9 +81,11 @@ button:hover{
     align-items: center;
     line-height: 35px;
 }
+
 .info p {
     text-align: center;
 }
+
 .section {
     width: 88%;
     margin: auto;
@@ -84,44 +95,56 @@ button:hover{
     margin-top: 80px;
     margin-bottom: 40px;
 }
+
 .section img {
     margin-left: 5px;
 }
+
 hr {
     width: 500px;
     height: 1px;
     background-color: var(--txt);
 }
-.doc-1, .doc-2{
+
+.doc-1,
+.doc-2 {
     width: 88%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.doc-1 a, .doc-2 a {
+
+.doc-1 a,
+.doc-2 a {
     text-decoration: none;
 }
+
 .doc-1 {
     margin-top: 50px;
     margin-bottom: 10px;
 }
+
 .doc-2 {
     margin-top: 10px;
 }
-.hr-escuro{
+
+.hr-escuro {
     width: 88%;
     height: 2px;
     background-color: var(--txt);
     margin: auto;
 }
-.hr-claro{
+
+.hr-claro {
     width: 88%;
-    height: 2px;
+    height: 1px;
     background-color: var(--txt);
     margin: auto;
 }
-.doc-1 p, .doc-2 p {
+
+.doc-1 p,
+.doc-2 p {
     color: var(--text, #161616);
     font-size: 18px;
     font-family: 'Poppins';
@@ -129,6 +152,22 @@ hr {
     margin-left: 10px;
     letter-spacing: 1px;
 }
+
+.estagio {
+    width: 88%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.justify {
+    width: 85%;
+    text-align: justify;
+}
+
 /***************************************************FOOTER***********************************************************************/
 .rodape {
     display: flex;
@@ -140,10 +179,10 @@ hr {
     align-items: center;
     background: #D9D9D9;
     font-family: 'Inter', sans-serif;
-    margin-top: 100px ;
+    margin-top: 100px;
 }
 
-footer p{
+footer p {
     font-weight: 500;
 }
 
@@ -161,6 +200,8 @@ footer p{
 .social img {
     margin: 0 5px;
 }
-.copyright, .devs {
+
+.copyright,
+.devs {
     color: #161616;
 }
