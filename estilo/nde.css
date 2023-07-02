@@ -37,12 +37,12 @@ h2 {
 /***************************************************NAVEGAÇÃO (GRID)***********************************************************************/
 .grid {
     display: grid;
-    width: 50%;
+    width: 70%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -78,17 +78,19 @@ button:hover {
 
 /***************************************************CONTEÚDO***********************************************************************/
 .membros {
-    width: 88%;
+    width: 80%;
     display: flex;
     margin: auto;
+    align-items: stretch;
+    justify-content: space-between;
 }
 .info {
     width: 40%;
-    margin: auto;
-    margin-bottom: 30px;
     display: flex;
     justify-content: left;
+    align-items: center;
     line-height: 35px;
+    margin-top: 30px;
 }
 .what {
     width: 88%;
@@ -112,6 +114,7 @@ button:hover {
     display: grid;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 .doc-unico
 {
@@ -129,12 +132,10 @@ button:hover {
     font-family: 'Poppins';
     margin-left: 10px;
 }
-.docs-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.docs-2{
+.docs-1, 
+.docs-2,
+.docs-3, 
+.docs-4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,9 +144,13 @@ button:hover {
     width: 100%;
     height: 2px;
     background-color: var(--txt);
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .docs-1 p,
-.docs-2 p {
+.docs-2 p,
+.docs-3 p,
+.docs-4 p {
     width: 85%;
     color: var(--txt, #161616);
     font-size: 18px;
