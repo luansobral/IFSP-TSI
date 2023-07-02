@@ -100,10 +100,14 @@ button:hover {
     justify-content: center;
     align-items: center;
     line-height: 35px; 
+    font-family: 'Poppins';
 }
-
 .what p {
     text-align: justify;
+    margin-bottom: 10px;
+}
+.what ul li {
+    text-align: left;
 }
 .info p {
     text-align: left;
@@ -115,22 +119,6 @@ button:hover {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-}
-.doc-unico
-{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 50px;
-    flex-direction: row-reverse;
-}
-.doc-unico p{
-    color: var(--txt, #161616);
-    font-size: 18px;
-    font-family: 'Poppins';
-    margin-left: 10px;
 }
 .docs-1, 
 .docs-2,
@@ -262,7 +250,7 @@ footer p {
 
 /* ********************************RESPONSIVO ******************************** */
 
-@media  screen and (max-width: 900px) {
+@media  screen and (max-width: 950px) {
     .grid {
         display: grid;
         width: 75%;
@@ -270,7 +258,7 @@ footer p {
         flex-wrap: wrap;
         justify-content: center;
         margin: auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-top: 20px;
         margin-bottom: 50px;
     }
