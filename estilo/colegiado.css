@@ -97,7 +97,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 35px;
+    line-height: 35px; 
 }
 
 .what p {

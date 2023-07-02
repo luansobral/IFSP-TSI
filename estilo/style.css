@@ -85,7 +85,7 @@ header button:hover{
 
 .titulo-curso h1, .titulo-curso h2{
     text-align: center;
-    background-color: var(--background);
+    -webkit-text-stroke: 1.5px #E8E8E8;
 }
 
 .titulo-curso h1:hover, .titulo-curso h2:hover{
