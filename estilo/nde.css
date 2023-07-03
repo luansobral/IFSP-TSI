@@ -77,12 +77,34 @@ button:hover {
 }
 
 /***************************************************CONTEÚDO***********************************************************************/
+hr {
+    width: 500px;
+    height: 1px;
+    background-color: var(--txt);
+}
+
 .membros {
     width: 80%;
     display: flex;
     margin: auto;
     align-items: stretch;
     justify-content: space-between;
+}
+
+.doc-membros {
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.hr-membros {
+    width: 100%;
+    height: 2px;
+    background-color: var(--txt);
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .info {
@@ -92,6 +114,11 @@ button:hover {
     align-items: center;
     line-height: 35px;
     margin-top: 30px;
+}
+
+.info p {
+    text-align: left;
+    font-size: 18px;
 }
 
 .what {
@@ -114,17 +141,21 @@ button:hover {
     text-align: left;
 }
 
-.info p {
-    text-align: left;
-    font-size: 18px;
+.what-doc {
+    width: 88%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
-.doc-membros {
-    width: 40%;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+.hr-what {
+    width: 88%;
+    height: 1px;
+    background-color: var(--txt);
+    margin: auto;
 }
 
 .docs-1,
@@ -134,14 +165,6 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.hr-membros {
-    width: 100%;
-    height: 2px;
-    background-color: var(--txt);
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
 .docs-1 p,
@@ -166,29 +189,6 @@ button:hover {
 
 .section img {
     margin-left: 5px;
-}
-
-hr {
-    width: 500px;
-    height: 1px;
-    background-color: var(--txt);
-}
-
-.what-doc {
-    width: 88%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-
-.hr-what {
-    width: 88%;
-    height: 1px;
-    background-color: var(--txt);
-    margin: auto;
 }
 
 .justify {
