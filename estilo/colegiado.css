@@ -77,12 +77,38 @@ button:hover {
     font-family: 'Poppins', sans-serif;
 }
 
-/***************************************************CONTEÚDO***********************************************************************/
+/***************************************************CONTEÚDO (MAIN)***********************************************************************/
+hr {
+    width: 500px;
+    height: 1px;
+    background-color: var(--txt);
+}
 .membros {
     width: 88%;
     display: flex;
     margin: auto;
 }
+
+.doc-membros {
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.doc-membros {
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr-membros {
+    width: 100%;
+    height: 2px;
+    background-color: var(--txt);
+}
+
 .info {
     width: 40%;
     margin: auto;
@@ -91,6 +117,12 @@ button:hover {
     justify-content: left;
     line-height: 35px;
 }
+
+.info p {
+    text-align: left;
+    font-size: 18px;
+}
+
 .what {
     width: 88%;
     margin: auto;
@@ -98,24 +130,31 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 35px; 
+    line-height: 35px;
 }
 
 .what p {
     text-align: justify;
 }
-.info p {
-    text-align: left;
-    font-size: 18px;
+
+.hr-what {
+    width: 88%;
+    height: 1px;
+    background-color: var(--txt);
+    margin: auto;
 }
-.doc-membros{
-    width: 40%;
-    display: grid;
-    justify-content: center;
+
+.what-doc {
+    width: 88%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
-.doc-unico
-{
+
+.doc-unico {
     display: flex;
     width: 50%;
     align-items: center;
@@ -124,27 +163,26 @@ button:hover {
     margin-top: 50px;
     flex-direction: row-reverse;
 }
-.doc-unico p{
+
+.doc-unico p {
     color: var(--txt, #161616);
     font-size: 18px;
     font-family: 'Poppins';
     margin-left: 10px;
 }
-.docs-1{
+
+.docs-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.docs-2{
+
+.docs-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.hr-membros{
-    width: 100%;
-    height: 2px;
-    background-color: var(--txt);
-}
+
 .docs-1 p,
 .docs-2 p {
     width: 85%;
@@ -152,6 +190,7 @@ button:hover {
     font-size: 18px;
     font-family: 'Poppins';
 }
+
 .section {
     width: 88%;
     margin: auto;
@@ -166,26 +205,6 @@ button:hover {
     margin-left: 5px;
 }
 
-hr {
-    width: 500px;
-    height: 1px;
-    background-color: var(--txt);
-}
-.what-doc{
-    width: 88%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
-.hr-what {
-    width: 88%;
-    height: 1px;
-    background-color: var(--txt);
-    margin: auto;
-}
 .justify {
     width: 85%;
     text-align: justify;
@@ -258,7 +277,7 @@ footer p {
 
 /* ********************************RESPONSIVO ******************************** */
 
-@media  screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .grid {
         display: grid;
         width: 75%;
@@ -272,29 +291,34 @@ footer p {
     }
 }
 
-@media  screen and (max-width: 725px) {
-    .rodape{
+@media screen and (max-width: 725px) {
+    .rodape {
         justify-content: center;
         flex-direction: column;
     }
-    .logo{
+
+    .logo {
         margin-bottom: 30px;
     }
-    .dev{
+
+    .dev {
         margin-top: 30px;
         display: flex;
     }
-    .devs{
+
+    .devs {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .devs .social {
         margin-top: 5px;
     }
 }
-@media  screen and (max-width: 585px) {
+
+@media screen and (max-width: 585px) {
     .grid {
         display: grid;
         width: 75%;
@@ -306,6 +330,7 @@ footer p {
         margin-top: 20px;
         margin-bottom: 50px;
     }
+
     .rodape {
         display: flex;
         flex-direction: column-reverse;
@@ -318,26 +343,31 @@ footer p {
         font-family: 'Inter', sans-serif;
         margin-top: 100px;
     }
+
     .dev {
         display: flex;
         margin-bottom: 30px;
     }
-    .devs{
+
+    .devs {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .devs .social {
         margin-top: 5px;
     }
-    .copyright{
+
+    .copyright {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .logo{
+
+    .logo {
         margin-top: 30px;
     }
 }
