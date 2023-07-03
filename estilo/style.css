@@ -75,17 +75,16 @@ header button:hover{
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
     font-size: 60px;
+    text-align: center;
+    background-color: var(--background);
 }
 
 .titulo-curso h2{
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
     font-size: 40px;
-}
-
-.titulo-curso h1, .titulo-curso h2{
     text-align: center;
-    -webkit-text-stroke: 1.5px #E8E8E8;
+    background-color: var(--background);
 }
 
 .titulo-curso h1:hover, .titulo-curso h2:hover{
