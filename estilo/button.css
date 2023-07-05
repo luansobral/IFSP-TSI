@@ -1,0 +1,8 @@
+button {
+    box-shadow: none;
+}
+
+button:hover {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.37);
+}
