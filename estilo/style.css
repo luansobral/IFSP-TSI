@@ -46,8 +46,6 @@ header button {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-weight: 600;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.37);
 }
 header button {
     box-shadow: none;
