@@ -27,6 +27,13 @@ html {
     scroll-behavior: smooth;
 }
 
+h1{
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+    text-align: center; 
+    font-size: 40px;
+}
+
 h2 {
     text-align: center;
     font-weight: bold;
@@ -56,13 +63,14 @@ h2 {
     margin: 30px auto;
     display: flex;
     cursor: pointer;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.37);
 }
 
 button:hover {
     background-color: var(--accent);
     transition: 0.25s;
     transform: translateY(-8px);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.37);
 }
 
 .grid-item a {
@@ -279,6 +287,10 @@ footer p {
 }
 
 @media screen and (max-width: 725px) {
+    .what p {
+        text-align: center;
+        margin-bottom: 25px;
+    }
     .rodape {
         justify-content: center;
         flex-direction: column;
@@ -305,6 +317,22 @@ footer p {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .membros {
+        flex-direction: column;
+    }
+    .info, .doc-membros {
+        width: 100%;
+    }
+    .info{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .info p {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 585px) {
     .grid {
         display: grid;
@@ -320,7 +348,7 @@ footer p {
 
     .rodape {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;

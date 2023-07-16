@@ -53,7 +53,6 @@ h2 {
     background: var();
     display: flex;
     cursor: pointer;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.37);
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
@@ -62,6 +61,8 @@ button:hover {
     background-color: var(--accent);
     transition: 0.25s;
     transform: translateY(-8px);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.37);
 }
 
 .grid-item a {

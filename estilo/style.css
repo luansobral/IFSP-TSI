@@ -14,11 +14,11 @@
 /***************************************************CABEÇALHO***********************************************************************/
 header {
     display: flex;
+    width: 88%;
     align-items: center;
-    height: 110px;
+    margin: auto;
+    padding: 20px 2px 30px 2px;
     background-color: var(--background);
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 header img {
@@ -49,7 +49,9 @@ header button {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.37);
 }
-
+header button {
+    box-shadow: none;
+}
 header button:hover {
     cursor: pointer;
 }
@@ -74,24 +76,24 @@ header button:hover {
     margin-top: 21%;
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
-    font-size: 60px;
+    font-size: 65px;
     text-align: center;
-    background-color: var(--background);
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: var(--background);
 }
 
 .titulo-curso h2 {
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
     font-size: 40px;
-<<<<<<< HEAD
-=======
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: var(--background);
 }
 
 .titulo-curso h1,
 .titulo-curso h2 {
->>>>>>> 4649d1a04e9feef71e1aff32ba12283d3e88064b
     text-align: center;
-    background-color: var(--background);
+    font-weight: 800;
 }
 
 .titulo-curso h1:hover,
