@@ -76,16 +76,14 @@ header button:hover {
     color: var(--btn-primario);
     font-size: 65px;
     text-align: center;
-    -webkit-text-stroke-width: 2.5px;
-    -webkit-text-stroke-color: var(--background);
+    background-color: var(--background);
 }
 
 .titulo-curso h2 {
     font-family: 'Poppins', sans-serif;
     color: var(--btn-primario);
     font-size: 40px;
-    -webkit-text-stroke-width: 1.3px;
-    -webkit-text-stroke-color: var(--background);
+    background-color: var(--background);
 }
 
 .titulo-curso h1,
